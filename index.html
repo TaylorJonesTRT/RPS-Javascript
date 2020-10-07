@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <div class="logo grey-shadow">Rock, <span class="text-red white-shadow">Paper,</span> Scissors</div>
+            <div class="content">
+                <div class="instructions">Make your choice...</div>
+
+                <ul class="choices">
+                    <li class="choice rock"><a onclick="playGame('Rock')" href="#"><img id="rock" src="http://www1.lasalle.edu/~blum/c230wks/RockPaperScissors/R.jpg"></a></li>
+                    <li class="choice paper"><a onclick="playGame('Paper')" href="#"><img id="paper" src="http://www1.lasalle.edu/~blum/c230wks/RockPaperScissors/P.jpg"></a></li>
+                    <li class="choice scissors"><a onclick="playGame('Scissors')" href="#"><img id="scissors" src="http://www1.lasalle.edu/~blum/c230wks/RockPaperScissors/S.jpg"></a></li>
+                </ul>
+
+                <div class="compare-choices">
+                    <span class="player-choice"></span>
+                    <span class="big-text text-red">VS</span>
+                    <span class="cpu-choice"></span>
+                </div>
+
+                <div class="results">
+                    <span class="results-text"></span><span class="winner text-red"></span>
+                </div>
+
+                <div class="score">
+                    <h1 class="text-white">Score</h1>
+                    <h3 class="player-score">Player</h3>
+                    <h3 class="computer-score">Computer</h3>
+                    <br />
+                    <h4 class="player-points">0</h4>
+                    <h4 class="computer-points">0</h4>
+                </div>
+            </div>
+        </div>
+        <script src="script.js" async defer></script>
+    </body>
+</html>

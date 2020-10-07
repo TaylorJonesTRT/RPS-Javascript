@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
+
+html {
+    background: #1A1A1D;
+    font-family: 'Staatliches', cursive;
+    color: #ffffff;
+}
+
+#container {
+    width: 900px;
+    min-height: 100%;
+    max-height: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    border-right: 1px solid #ffffff;
+    border-left: 1px solid #ffffff;
+}
+
+.logo {
+    font-family: 'Staatliches', cursive;
+    font-size: 3em;
+    color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 75px;
+}
+
+.content {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.choices {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    padding-bottom: 50px;
+}
+
+.choice {
+    display: inline;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;;
+}
+
+.choice img {
+    width: 100px;
+    height: auto;
+    border: 3px solid #4e4450;
+}
+
+.instructions {
+    padding-bottom: 30px;
+}
+
+.compare-choices {
+    padding-bottom: 30px;
+}
+
+.results {
+    padding-bottom: 30px;
+    font-size: 2.5em;
+}
+
+.score {
+    width: auto;
+}
+
+.player-score {
+    margin-left: 300px;
+    float: left;
+}
+
+.computer-score {
+    float: right;
+    margin-right: 300px;
+}
+
+.player-points {
+    margin-left: 320px;
+    float: left;
+}
+
+.computer-points {
+    float: right;
+    margin-right: 325px;
+}
+
+.text-red {
+    color: #c3073f;
+}
+.text-grey {
+    color: #4e4450;
+}
+.text-white {
+    color: #ffffff;
+}
+.white-shadow {
+    text-shadow: 2px 0 0 #950740;
+}
+.grey-shadow {
+    text-shadow: 2px 0 0 #4e4450;
+}
+.player-choice {
+    font-size: 2em;
+    padding-right: 10px;
+}
+.cpu-choice {
+    font-size: 2em;
+    padding-left: 10px;
+}
